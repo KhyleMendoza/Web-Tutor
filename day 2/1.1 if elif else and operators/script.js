@@ -34,3 +34,13 @@ console.log(agec > 18);   // greater than
 console.log(agec >= 18);  // greater than or equal
 console.log(agec < 30);   // less than
 console.log(agec <= 30);  // less than or equal
+
+agec=23
+console.log(agec)
+agec+=1
+console.log(agec)
+agec-=1
+console.log(agec)
+agec*=2
+console.log(agec)
+
