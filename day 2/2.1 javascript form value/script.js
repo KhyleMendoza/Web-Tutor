@@ -14,8 +14,8 @@ Submit.addEventListener('click', function() {
     let Student = document.getElementById('student');
 
     // alert(Name);
-    if (!Name && !Age) {
-        alert("Please input valid name and age")
+    if (!Name || !Age || !Gender) {
+        alert("Please input valid name and age and gender")
     } else {
         for(let p of paragraph) {
             p.style.display = 'block';
