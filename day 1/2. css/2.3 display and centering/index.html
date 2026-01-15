@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>parent using display block by default</p>
+    <div class="box">
+        <p>this is 1st paragraph</p>
+        <p>this is 2nd paragraph</p>
+        <p>this is 3rd paragraph</p>
+    </div>
+    <p>parent using display flex</p>
+    <div class="box2">
+        <p>this is 1st paragraph</p>
+        <p>this is 2nd paragraph</p>
+        <p>this is 3rd paragraph</p>
+    </div>
+    <br>
+    <p>when display block the child uses 100% width but when display flex it sets the width of it to max-content</p>
+    <br>
+    <p>by default most elements with open and close use 100% width except for span, a, strong, em, img, input</p>
+    <br>
+    <p>now lets center</p>
+    <br>
+    <p class="centerp">this is centered by p tag only by using text align center</p>
+    <br>
+    <p class="centerp2">another way is using margin auto it will center the parent</p>
+    <br>
+    <div class="box3">
+        <p>this centered by using flex, align items center, justify-content center</p>
+    </div>
+    <br>
+    <div class="box4">
+        <p>this centered by using grid</p>
+    </div>
+</body>
+</html>

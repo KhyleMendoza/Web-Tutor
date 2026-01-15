@@ -1,0 +1,10 @@
+/* This is a comment in css */
+
+/* We use * to target all elements.
+   We remove default padding and margin
+   because most elements have them by default. */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: blue;
+}
+
+.box2 {
+    display: flex;
+    background-color: blue;
+}
+
+.centerp {
+    background-color: pink;
+    text-align: center; /* this is used for self centering */
+}
+
+.centerp2 {
+    margin: 0 auto; /* we used this so that left and right will take up remaining space available in margin since our width is 80%*/
+    text-align: center;
+    width: 80%;
+    background-color: pink;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center; /* this center in row it center child only and justify content can only be used when its display flex*/
+    align-items: center; /* this center in column it center child only*/
+    height: 200px;
+    background-color: green;
+}
+
+.box4 {
+    display: grid;
+    place-items: center; /* this can only be used when display is grid*/
+    background-color: pink;
+}

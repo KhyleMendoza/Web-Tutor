@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.par {
+    font-size: 34px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.box {
+    background-color: green;
+    height: 20vh;
+    padding: 10px; /* this is for inside of the box*/
+    border: 3px solid black; /* this is for the box edge*/
+    outline: 2px solid rgb(145, 145, 145); /* this is after of the edge*/
+    margin: 10px; /* this is for the outside of box*/
+}
+
+.box > p {
+    color: white;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}

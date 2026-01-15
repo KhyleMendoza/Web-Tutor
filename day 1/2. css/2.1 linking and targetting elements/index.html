@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--This is first method of linking css-->
+    <style>
+        p {
+            background-color: blue;
+        }
+
+        .hi {
+            background-color: rgb(115, 184, 4);
+        }
+
+        #hi {
+            background-color: rgb(255, 40, 255);
+        }
+    </style>
+    <!--This is 2nd way of linking css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>now lets link css</h1>
+    <p>We can also target by tag name</p>
+    <p class="hi">we can also target by class name</p>
+    <p id="hi">we can also target by id</p>
+    <p style="background-color: green;">We can directly add style to a tag</p>
+    <p class="hi">we can only do 1 id while on class we can use it multiple times and it's also case sensitive</p>
+</body>
+</html>
