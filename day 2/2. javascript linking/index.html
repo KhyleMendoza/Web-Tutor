@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>To add javascript we have 3 methods</p>
+    <p>1st is directly adding script on element</p>
+    <button onclick="alert('clicked')">try clicking me</button>
+    <div>
+        <p>2nd is targetting it in script</p>
+        <button class="submit">Click</button>
+        <button class="submit2">Click</button>
+    </div>
+
+    <div>
+        <p>3rd is seperating it using script:src</p>
+        <button id="submit3">Click</button>
+    </div>
+    <script>
+        const submitbtn = document.getElementsByClassName('submit')[0];
+
+        submitbtn.onclick = function() {
+            alert("clicked")
+        }
+
+        const submitbtn2 = document.querySelector('.submit2')
+
+        submitbtn2.addEventListener('click', function() {
+            alert("clicked");
+        })
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
