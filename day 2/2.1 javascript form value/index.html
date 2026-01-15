@@ -9,10 +9,21 @@
     <label for="Name">Name:</label>
     <input type="text" id="Name">
     <label for="Age">Age:</label>
-    <input type="text" id="Age">
+    <input type="number" id="Age" min="0">
+    <label for="Gender">Gender:</label>
+    <select name="Gender" id="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+    <label>
+        <input type="checkbox" id="student">
+        Are you a student?
+    </label>
     <button id="Submit">Submit</button>
-        <p class="paragraph">Your name is <span id="namel"></span></p>
+    <p class="paragraph">Your name is <span id="namel"></span></p>
     <p class="paragraph">Your age is <span id="agel"></span></p>
+    <p class="paragraph">You gender is <span id="genderl"></span></p>
+    <p class="paragraph"><span id="studentl"></span></p>
 
     <script src="script.js"></script>
 </body>
