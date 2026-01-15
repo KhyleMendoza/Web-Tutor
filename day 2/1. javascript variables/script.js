@@ -54,3 +54,8 @@ fruits.pop()
 
 console.log(fruits)
 
+fruits.reverse()
+console.log("lets reverse list of fruits")
+console.log(fruits)
+
+console.log("How many fruits are there?" + fruits.length)
