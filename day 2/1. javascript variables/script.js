@@ -34,6 +34,22 @@ console.log(`You bought a apple for 5$`)
 
 console.log(`Your money is $${money}`)
 
+money +=10
+
+console.log(`You found 10$ on floor!`)
+
+console.log(`your money is $${money}`)
+
+money *=3
+console.log("You got multiplier x3 on your money!")
+
+console.log(`Your money is ${money}`)
+
+money /=2
+console.log("Your money got taxed in half!")
+
+console.log(`Your money is $${money}`)
+
 //arrays
 
 let fruits = ["Apple", "pineapple", "grapes"]
@@ -59,3 +75,13 @@ console.log("lets reverse list of fruits")
 console.log(fruits)
 
 console.log("How many fruits are there?" + fruits.length)
+
+let person = {
+    "name": "Khyle",
+    "age": 22,
+    "year": 4,
+    "section": "B"
+}
+
+console.log(person.name)
+console.log(`Your name is ${person.name}, your age is ${person.age}, your year and section is ${person.year} ${person.section}!`)
