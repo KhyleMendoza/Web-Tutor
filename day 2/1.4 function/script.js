@@ -4,7 +4,7 @@ function Greet() {
 Greet()
 
 balance = 0
-input = 3
+input = 1
 
 if (input == 1) {
     Add()
