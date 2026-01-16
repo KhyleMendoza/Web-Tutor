@@ -1,15 +1,15 @@
-btn = document.getElementsByTagName('button');
-container = document.getElementById('card-container');
+let btn = document.getElementsByTagName('button');
+let container = document.getElementById('card-container');
 
 btn[0].addEventListener('click', function() {
     Name = document.getElementById('Name').value;
     if (Name) {
-        card = document.createElement('div');
+        let card = document.createElement('div');
         card.classList.add('card');
         container.append(card);
-        p = document.createElement('p');
-        btn2 = document.createElement('button');
-        btn3 = document.createElement('button');
+        let p = document.createElement('p');
+        let btn2 = document.createElement('button');
+        let btn3 = document.createElement('button');
         btn2.classList.add("delete");
         btn2.innerText = "Delete";
         btn3.classList.add("edit");
@@ -30,10 +30,14 @@ container.addEventListener('click', function (e) {
 
 container.addEventListener('click', function(e) {
     if (e.target.classList.contains('edit')) {
-        card = e.target.closest('.card');
-        namel = card.querySelector('.name');
+        let card = e.target.closest('.card');
+        let namel = card.querySelector('.name');
 
         newName = prompt("Enter New Name!");
-        namel.innerText = newName;
+        if (newName) {
+            namel.innerText = newName;
+        } else {
+            alert("New name can't be empty")
+        }
     }
 })
