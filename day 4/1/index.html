@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="form-container">
+            <div class="form" id="form">
+                <label for="Name">Name:</label>
+                <input type="text" id="Name">
+                <label for="Age">Age:</label>
+                <input type="number" id="Age">
+                <label for="Gender">Gender:</label>
+                <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <button id="submitBtn">Submit</button>
+            </div>
+            <hr>
+            <div class="store" id="store">
+                <h1>Store</h1>
+                <div class="item-container">
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2oXZTqj2csZlVAKkc7LWSyc92Y9EgK8yI_g&s" alt="Pizza">
+                        <h2>Pizza</h2>
+                        <p>200.00</p>
+                        <button class="buy">Buy Now</button>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2oXZTqj2csZlVAKkc7LWSyc92Y9EgK8yI_g&s" alt="Pizza">
+                        <h2>Pizza</h2>
+                        <p>200.00</p>
+                        <button class="buy">Buy Now</button>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2oXZTqj2csZlVAKkc7LWSyc92Y9EgK8yI_g&s" alt="Pizza">
+                        <h2>Pizza</h2>
+                        <p>200.00</p>
+                        <button class="buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <p>Name: <span id="Namel"></span></p>
+            <p>Age: <span id="Agel"></span></p>
+            <p>Balance: <span id="Balancel"></span></p>
+
+            <div class="purchase" id="purchase">
+                <h1>Thank you for purchasing!</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

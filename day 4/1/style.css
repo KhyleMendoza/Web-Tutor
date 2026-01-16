@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 105vh;
+}
+
+.form-container {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.form-container > hr {
+    border: 1px solid rgb(90, 90, 90);
+}
+
+.form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+
+.form > input {
+    border: 2px gray solid;
+    padding: 5px;
+}
+
+.form > button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.form > button:hover {
+    background-color: rgb(33, 119, 33);
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #525252;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.card > p {
+    font-size: 26px;
+    color: white;
+}
+
+.store {
+    display: none;
+}
+
+.item-container {
+    display: flex;
+    gap: 15px;
+}
+
+.item {
+    flex-grow: 1;
+    background-color: #ebdede;
+    box-shadow: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.item > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item > button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.item > button:hover {
+    background-color: rgb(33, 119, 33);
+}
+
+.purchase {
+    margin-top: 10px;
+    color: rgb(0, 180, 54);
+    display: none;
+}
