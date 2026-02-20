@@ -9,6 +9,8 @@ nav {
     justify-content: space-between;
     background-color: rgb(24, 24, 24);
     padding: 20px;
+    position: fixed;
+    width: 100%;
 }
 
 nav h2 {
@@ -67,5 +69,12 @@ nav .hamburger img:nth-child(2) {
         height: 20px;
         width: 20px;
     }
+}
+
+
+.box {
+    width: 300px;
+    height: 100vh;
+    background-color: blue;
 }
 
