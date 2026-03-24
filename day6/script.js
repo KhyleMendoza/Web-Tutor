@@ -135,21 +135,73 @@ function arianne() {
 //     arianne()
 // })
 
+// function kingkong () {
+
+//     let auth = true
+
+//     if (!auth) {
+//         console.log("not authorize")
+//         return;
+//     }
+//     console.log("congrats") 
+// }
+
+// const button=document.getElementById("btn")
+// button.addEventListener("click", function(){
+//     console.log("PROUD")
+//     kingkong ()
+// })
 
 
-function kingkong () {
 
-    let auth = true
 
-    if (!auth) {
-        console.log("not authorize")
-        return;
-    }
-    console.log("congrats") 
+
+
+
+
+
+
+
+
+
+
+
+// function monkey() {
+//     console.log("monkey")
+// }
+
+
+// const button = document.getElementById("btn")
+// button.addEventListener("click", () => {
+//     console.log("clicked")
+//     monkey()
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const pig = () => {
+    console.log("oink")
 }
 
-const button=document.getElementById("btn")
-button.addEventListener("click", function(){
-    console.log("PROUD")
-    kingkong ()
-})
+const button = document.getElementById("btn")
+button.addEventListener("click", () =>{
+    console.log("button")
+    pig()
+}) 
+
